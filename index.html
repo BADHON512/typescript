@@ -5,17 +5,33 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo app</title>
+    <style>
+    .todo{
+      background-color: orange;
+      display: flex;
+      height: 8vh;
+      width: 20vw;
+      justify-content: center;
+      align-items: center;
+      gap:20px ;
+
+      margin: 5px;
+    }
+    .textcut{
+      text-decoration: line-through;
+    }
+    </style>
   </head>
   <body>
     <h1>Todo App</h1>
     <form action="" id="form">
-      <input type="text" required placeholder="Title" name="" id="">
+      <input type="text" required placeholder="Title" name="Title" id="">
       <input type="submit" value="Add">
 
  
     </form>
    <div class="todosContainer">
-   <h1>one add todo app</h1>
+      
     </div>
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
